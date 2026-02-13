@@ -76,17 +76,14 @@ cp -R <repo>/postgres "$DEST/"
 ```
 
 
->>>>>>> 737c1a6 (feat: Implemented skill cross AI compatibility)
 ## Verify and use
 
 1. Restart your agent (Codex or Claude) so new skills are loaded.
 2. Confirm each installed skill contains `SKILL.md` under `<skills-dir>/<skill-name>/`.
 
-<<<<<<< HEAD
 ## Codex users
 =======
 Optional Codex-side validation:
->>>>>>> 737c1a6 (feat: Implemented skill cross AI compatibility)
 
 ```bash
 VALIDATOR="${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-creator/scripts/quick_validate.py"
