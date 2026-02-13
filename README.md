@@ -17,7 +17,7 @@ This repository contains custom skills for Claude.
 
 For Claude, install skills by copying each skill directory into `~/.claude/skills`.
 
-### Option 1: Install from local clone
+### Install from local clone
 
 ```bash
 mkdir -p "$HOME/.claude/skills"
@@ -27,26 +27,11 @@ cp -R devops-kubernetes-interviewer "$HOME/.claude/skills/"
 cp -R postgres "$HOME/.claude/skills/"
 ```
 
-### Option 2: Install from GitHub
-
-Clone and copy from the repo:
-
-```bash
-git clone https://github.com/<owner>/<repo>.git
-mkdir -p "$HOME/.claude/skills"
-cp -R <repo>/create-drawio "$HOME/.claude/skills/"
-cp -R <repo>/devops-terraform-interviewer "$HOME/.claude/skills/"
-cp -R <repo>/devops-kubernetes-interviewer "$HOME/.claude/skills/"
-cp -R <repo>/postgres "$HOME/.claude/skills/"
-```
-
-Replace `<owner>/<repo>` and `<repo>` with your repository details.
-
 ## Verify and use
 
 1. Restart Claude so new skills are loaded.
 2. Confirm each installed skill contains a `SKILL.md` file under `~/.claude/skills/<skill-name>/`.
 
-## Codex users (optional)
+## Codex users
 
 If you use Codex instead of Claude, install to `$CODEX_HOME/skills` (default: `~/.codex/skills`) using the same folder-copy approach.
