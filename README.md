@@ -75,7 +75,6 @@ cp -R <repo>/devops-kubernetes-interviewer "$DEST/"
 cp -R <repo>/postgres "$DEST/"
 ```
 
-Replace `<owner>/<repo>` and `<repo>` with your repository details.
 
 >>>>>>> 737c1a6 (feat: Implemented skill cross AI compatibility)
 ## Verify and use
