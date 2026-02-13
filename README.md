@@ -26,8 +26,6 @@ To keep a single skill folder compatible across Codex and Claude:
 
 Copy the same skill directories to the target skills path for your agent.
 
-<<<<<<< HEAD
-=======
 ### Claude install path
 
 `~/.claude/skills`
@@ -36,7 +34,6 @@ Copy the same skill directories to the target skills path for your agent.
 
 `$CODEX_HOME/skills` (default: `~/.codex/skills`)
 
->>>>>>> 737c1a6 (feat: Implemented skill cross AI compatibility)
 ### Install from local clone
 
 ```bash
