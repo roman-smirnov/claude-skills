@@ -42,26 +42,6 @@ cp -R devops-kubernetes-interviewer "$DEST/"
 cp -R postgres "$DEST/"
 ```
 
-### Install from GitHub
-
-Clone and copy from the repo:
-
-```bash
-git clone https://github.com/<owner>/<repo>.git
-
-# Claude:
-# DEST="$HOME/.claude/skills"
-#
-# Codex:
-# DEST="${CODEX_HOME:-$HOME/.codex}/skills"
-
-mkdir -p "$DEST"
-cp -R <repo>/create-drawio "$DEST/"
-cp -R <repo>/devops-terraform-interviewer "$DEST/"
-cp -R <repo>/devops-kubernetes-interviewer "$DEST/"
-cp -R <repo>/postgres "$DEST/"
-```
-
 ## Verify and use
 
 1. Restart your agent (Codex or Claude) so new skills are loaded.
