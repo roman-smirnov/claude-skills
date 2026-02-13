@@ -1,8 +1,6 @@
 ---
 name: create-drawio
 description: Create .drawio architecture diagrams with proper AWS icons, containers, and clean layouts. Use when the user asks to create infrastructure diagrams, architecture diagrams, flowcharts, or any visual diagram in .drawio format.
-argument-hint: [description of what to diagram]
-allowed-tools: Write, Read, Bash, Glob, Grep, Task, WebSearch, WebFetch
 ---
 
 # Draw.io Diagram Generator

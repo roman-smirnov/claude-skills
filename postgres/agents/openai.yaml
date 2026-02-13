@@ -1,0 +1,4 @@
+interface:
+  display_name: "Postgres Best Practices"
+  short_description: "Optimize Postgres queries and schema design"
+  default_prompt: "Use $postgres to review this SQL or schema for performance issues and suggest fixes."

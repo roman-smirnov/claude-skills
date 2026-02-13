@@ -1,0 +1,4 @@
+interface:
+  display_name: "DevOps Terraform Interviewer"
+  short_description: "Run a repo-aware Terraform mock interview"
+  default_prompt: "Use $devops-terraform-interviewer to interview me on Terraform using this repository."

@@ -1,3 +1,8 @@
+---
+name: devops-terraform-interviewer
+description: Conduct a structured, repo-aware DevOps mock interview with Terraform depth, including follow-up questions, scoring, and a debrief across security, scalability, availability, and cost optimization. Use when the user wants Terraform-heavy DevOps interview practice or project-based readiness feedback.
+---
+
 # DevOps Terraform Interviewer Skill
 
 > Composite skill: Terraform depth derived from `iac-terraform@devops-skills`.
@@ -11,7 +16,7 @@ The interview is DevOps-focused: emphasize **infrastructure, deployment pipeline
 
 ## Invocation
 
-This skill is invoked via `/devops-terraform-interviewer` or by asking Claude to "interview me on DevOps".
+This skill can be invoked explicitly (for example, `$devops-terraform-interviewer` in Codex or `/devops-terraform-interviewer` in Claude) or by natural language, such as "interview me on DevOps".
 
 ---
 
@@ -60,7 +65,7 @@ After the repo map, list which interview rounds are **available** (artifacts fou
 
 ## Phase 2: Mode Selection
 
-After printing the repo map, present this menu using `AskUserQuestion`:
+After printing the repo map, present this menu in chat and wait for the user's explicit selection:
 
 - **Full loop** — All available rounds, thorough coverage (~25-35 questions)
 - **Terraform-only** — Deep dive on IaC (based on `iac-terraform@devops-skills` standards)

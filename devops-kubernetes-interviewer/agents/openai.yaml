@@ -1,0 +1,4 @@
+interface:
+  display_name: "DevOps Kubernetes Interviewer"
+  short_description: "Run a repo-aware Kubernetes mock interview"
+  default_prompt: "Use $devops-kubernetes-interviewer to interview me on Kubernetes using this repository."

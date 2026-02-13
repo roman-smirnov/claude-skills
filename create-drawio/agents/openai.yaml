@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Draw.io"
+  short_description: "Generate Draw.io architecture diagrams"
+  default_prompt: "Use $create-drawio to create a draw.io diagram for this architecture: <brief spec>."

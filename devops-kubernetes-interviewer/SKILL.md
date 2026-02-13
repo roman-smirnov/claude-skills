@@ -1,3 +1,8 @@
+---
+name: devops-kubernetes-interviewer
+description: Conduct a structured, repo-aware DevOps mock interview with Kubernetes depth, including follow-up questions, scoring, and a debrief across security, scalability, availability, and cost optimization. Use when the user wants interview practice, troubleshooting-focused Kubernetes assessment, or readiness feedback for DevOps roles.
+---
+
 # DevOps Kubernetes Interviewer Skill
 
 > Composite skill: Kubernetes depth derived from `k8s-troubleshooter@devops-skills`.
@@ -11,7 +16,7 @@ The interview is DevOps-focused: emphasize **infrastructure, deployment pipeline
 
 ## Invocation
 
-This skill is invoked via `/devops-kubernetes-interviewer` or by asking Claude to "interview me on Kubernetes".
+This skill can be invoked explicitly (for example, `$devops-kubernetes-interviewer` in Codex or `/devops-kubernetes-interviewer` in Claude) or by natural language, such as "interview me on Kubernetes".
 
 ---
 
@@ -60,7 +65,7 @@ After the repo map, list which interview rounds are **available** (artifacts fou
 
 ## Phase 2: Mode Selection
 
-After printing the repo map, present this menu using `AskUserQuestion`:
+After printing the repo map, present this menu in chat and wait for the user's explicit selection:
 
 - **Full loop** — All available rounds, thorough coverage (~25-35 questions)
 - **Kubernetes-only** — Deep dive on K8s (based on `k8s-troubleshooter@devops-skills` standards)
