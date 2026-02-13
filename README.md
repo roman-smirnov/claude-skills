@@ -13,14 +13,6 @@ This repository contains custom `SKILL.md` based devops skills.
 | `devops-kubernetes-interviewer` | Runs a structured, repo-aware DevOps mock interview with a Kubernetes-depth focus (troubleshooting and operations) plus cross-domain coverage. | `devops-kubernetes-interviewer/SKILL.md`, `devops-kubernetes-interviewer/rubrics.md`, `devops-kubernetes-interviewer/checklists/` |
 | `postgres` | Postgres performance and schema best-practices reference (Supabase-oriented), including query, indexing, locking, connection, and RLS guidance. | `postgres/SKILL.md`, `postgres/references/` |
 
-## Cross-Agent Compatibility Rules
-
-To keep a single skill folder compatible across Codex and Claude:
-
-1. Keep `SKILL.md` as the canonical entrypoint in each skill directory.
-2. Use YAML frontmatter with `name` and `description` (shared baseline across tools).
-3. Avoid agent-specific tool names in required workflow steps; describe behavior in tool-neutral terms.
-4. Keep optional files (`CLAUDE.md`, `agents/openai.yaml`) additive, not required for core behavior.
 
 ## Installation
 
