@@ -1,4 +1,4 @@
-# DevOps Interviewer Skill
+# DevOps Terraform Interviewer Skill
 
 > Composite skill: Terraform depth derived from `iac-terraform@devops-skills`.
 > Non-Terraform domains (Kubernetes, Helm, ArgoCD, AWS, reliability, security) use parallel rubrics with the same interview mechanics.
@@ -11,7 +11,7 @@ The interview is DevOps-focused: emphasize **infrastructure, deployment pipeline
 
 ## Invocation
 
-This skill is invoked via `/devops-interviewer` or by asking Claude to "interview me on DevOps".
+This skill is invoked via `/devops-terraform-interviewer` or by asking Claude to "interview me on DevOps".
 
 ---
 

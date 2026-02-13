@@ -2,12 +2,15 @@
 
 This repository contains custom skills for Claude.
 
+![Claude Skills Cover](cover.jpg)
+
 ## Skills
 
 | Skill | Description | Key files |
 |---|---|---|
 | `create-drawio` | Generates valid `.drawio` architecture diagrams (especially AWS-focused) with containers, icons, and clean edge routing. | `create-drawio/SKILL.md`, `create-drawio/examples/aws-architecture.xml` |
-| `devops-interviewer` | Runs a structured, repo-aware DevOps mock interview with scoring rubrics across Terraform, Kubernetes, Helm, ArgoCD, AWS, reliability, and security. | `devops-interviewer/SKILL.md`, `devops-interviewer/rubrics.md`, `devops-interviewer/checklists/` |
+| `devops-terraform-interviewer` | Runs a structured, repo-aware DevOps mock interview with a Terraform-depth focus plus cross-domain coverage (Kubernetes, Helm, ArgoCD, AWS, reliability, security). | `devops-terraform-interviewer/SKILL.md`, `devops-terraform-interviewer/rubrics.md`, `devops-terraform-interviewer/checklists/` |
+| `devops-kubernetes-interviewer` | Runs a structured, repo-aware DevOps mock interview with a Kubernetes-depth focus (troubleshooting and operations) plus cross-domain coverage. | `devops-kubernetes-interviewer/SKILL.md`, `devops-kubernetes-interviewer/rubrics.md`, `devops-kubernetes-interviewer/checklists/` |
 | `postgres` | Postgres performance and schema best-practices reference (Supabase-oriented), including query, indexing, locking, connection, and RLS guidance. | `postgres/SKILL.md`, `postgres/references/` |
 
 ## Installation
@@ -19,7 +22,8 @@ For Claude, install skills by copying each skill directory into `~/.claude/skill
 ```bash
 mkdir -p "$HOME/.claude/skills"
 cp -R create-drawio "$HOME/.claude/skills/"
-cp -R devops-interviewer "$HOME/.claude/skills/"
+cp -R devops-terraform-interviewer "$HOME/.claude/skills/"
+cp -R devops-kubernetes-interviewer "$HOME/.claude/skills/"
 cp -R postgres "$HOME/.claude/skills/"
 ```
 
@@ -31,7 +35,8 @@ Clone and copy from the repo:
 git clone https://github.com/<owner>/<repo>.git
 mkdir -p "$HOME/.claude/skills"
 cp -R <repo>/create-drawio "$HOME/.claude/skills/"
-cp -R <repo>/devops-interviewer "$HOME/.claude/skills/"
+cp -R <repo>/devops-terraform-interviewer "$HOME/.claude/skills/"
+cp -R <repo>/devops-kubernetes-interviewer "$HOME/.claude/skills/"
 cp -R <repo>/postgres "$HOME/.claude/skills/"
 ```
 
