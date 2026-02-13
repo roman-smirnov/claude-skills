@@ -53,8 +53,6 @@ cp -R devops-kubernetes-interviewer "$DEST/"
 cp -R postgres "$DEST/"
 ```
 
-<<<<<<< HEAD
-=======
 ### Install from GitHub
 
 Clone and copy from the repo:
