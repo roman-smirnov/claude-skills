@@ -1,6 +1,6 @@
-# AI Skills (Codex + Claude)
+# Roman's Devops Skills
 
-This repository contains custom `SKILL.md`-based skills designed to work for both Codex and Claude users.
+This repository contains custom `SKILL.md` based devops skills.
 
 ![Claude Skills Cover](cover.jpg)
 
