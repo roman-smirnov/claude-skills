@@ -1,0 +1,7 @@
+interface:
+  display_name: "DevOps Interviewer"
+  short_description: >-
+    Structured DevOps mock interview across Kubernetes, Terraform, GitOps,
+    Observability, AWS, and CI/CD with scoring and debrief.
+  default_prompt: >-
+    Use $devops-interviewer to interview me using this repository.
